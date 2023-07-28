@@ -1,3 +1,15 @@
-body{
-    background: bisque;
+/* Hack para resetear el tamaño de la página 1rem = 10px*/
+
+/* ---------------------------------- utilities ---------------------------------- */
+
+html{
+    font-size: 62.5%;
 }
+
+body{
+    font-size: 16px;
+}
+
+/* ---------------------------------- end utilities ---------------------------------- */
+
+
