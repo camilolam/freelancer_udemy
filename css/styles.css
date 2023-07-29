@@ -1,7 +1,6 @@
-/* Hack para resetear el tamaño de la página 1rem = 10px*/
-
 /* ---------------------------------- utilities ---------------------------------- */
 
+/* Hack para resetear el tamaño de la página 1rem = 10px*/
 html{
     font-size: 62.5%;
 }
@@ -11,5 +10,17 @@ body{
 }
 
 /* ---------------------------------- end utilities ---------------------------------- */
+.title{
+    text-align:center;
+    margin-bottom: 0;
+}
 
+.subtitle{
+    text-align:center;
+    margin-top: 0;
+    font-size: 2rem;
+}
 
+.title span{
+    font-size: 2rem;
+}
