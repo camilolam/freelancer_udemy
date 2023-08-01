@@ -1,5 +1,14 @@
 /* ---------------------------------- utilities ---------------------------------- */
 
+:root{ /* Nos permite usar variables en css (custom properties)*/
+    --primary : #ffc107;
+    --secondary: #0097a7;
+    --gray:#757575;
+
+    --mainFontSize:3.8rem;
+
+}
+
 /* Hack para resetear el tamaño de la página 1rem = 10px*/
 html{
     font-size: 62.5%;
@@ -7,8 +16,14 @@ html{
 
 body{
     font-size: 16px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: 400;
 }
 
+.container{
+    width: 100rem;
+    margin: 0 auto;
+}
 /* ---------------------------------- end utilities ---------------------------------- */
 .title{
     text-align:center;
@@ -23,4 +38,27 @@ body{
 
 .title span{
     font-size: 2rem;
+}
+
+/* nav */
+
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-nav a{
+    padding: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+    
+}
+
+.main-nav a:hover{
+    background-color: var(--gray);
+}
+
+.nav-bg {
+    background-color: var(--secondary);
 }
